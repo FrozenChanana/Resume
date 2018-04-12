@@ -4,21 +4,35 @@
 *
 *
 * White 	: #fff
-*
-*
+* grey borders :#DFDFDF;
+* blue: #2520FF;
+* light green :B4FFAC;
+* papyrus     :#FFF5B2;
 **********************************
+/*----------------------------
+*  fonts
+----------------------------*/
+@font-face{
+font-family: Verdana, Georgia;
+font-style: normal;
+font-weight: normal;
+}
 /*----------------------------
 *  Base
 ----------------------------*/
-body{
+body {
 
 }
- h1, h2, h3, h4, h5, h6{
-
+ h1, h2, h3, h4, h5, h6 {
+font-family: Verdana;
 
  }
-
+Main {
+background-color: #B9FFE4;
+}
  p {
+font-family: Georgia;
+}
 
 
 }
@@ -26,8 +40,60 @@ ul {
 
 }
 li {
-	
+font-family: Georgia;
 }
 a {
 
+}
+
+/*----------------------------
+*  hero
+----------------------------*/
+
+.hero {
+background-color: #B4FFAC;
+text-align: center;
+padding: 30px 0;
+font-family: Verdana;
+border-bottom: 1px solid #DFDFDF;
+}
+
+/*----------------------------
+*  tagline
+----------------------------*/
+.tagline{
+border-bottom: 1px solid #DFDFDF;
+}
+
+}
+/*----------------------------
+*  Skills
+----------------------------*/
+.skills {
+border-bottom: 1px solid #DFDFDF;
+
+}
+
+/*----------------------------
+*  xp
+----------------------------*/
+.xp {
+border-bottom: 1px solid #DFDFDF;
+
+}
+/*----------------------------
+*  contact
+----------------------------*/
+.contact {
+	background-color: #EFFEAA; 
+
+}
+
+/*----------------------------
+*  content
+----------------------------*/
+.content {
+	
+	margin: 0 auto;
+	max-width: 800px;
 }
